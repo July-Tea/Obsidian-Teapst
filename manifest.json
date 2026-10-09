@@ -1,0 +1,10 @@
+{
+	"id": "teapst",
+	"name": "Teapst",
+	"version": "0.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "Typst math typesetting for Obsidian.",
+	"author": "JulyTea",
+	"authorUrl": "https://github.com/July-Tea",
+	"isDesktopOnly": false
+}

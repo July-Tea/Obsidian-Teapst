@@ -1,0 +1,34 @@
+# Editors
+.vscode
+*.iml
+.idea
+
+# Dependencies and logs
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local Obsidian data
+data.json
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Build output (generated during npm run build)
+main.js
+styles.css
+*.map
+
+# Temporary archives and local build artifacts
+*.tgz
+dist/
+build/
+deploy.sh
+
+# macOS
+.DS_Store
+
+# Local scratch scripts and personal vault tooling
+tools/
+tmp_*.js
+teapst_tmp_check.js
