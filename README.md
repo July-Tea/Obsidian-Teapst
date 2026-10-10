@@ -37,8 +37,8 @@ Teapst intercepts calls to the `tex2chtml` function of Obsidian's built-in MathJ
 
 1. 公式包含 LaTeX 命令 → 直接交给 MathJax。
    Formula contains a LaTeX command → passed straight to MathJax.
-2. 否则视为 Typst → 由 [tex2typst](https://github.com/qwinsi/tex2typst) 转换为 LaTeX → 交给 MathJax 渲染。
-   Otherwise it is treated as Typst → converted to LaTeX by [tex2typst](https://github.com/qwinsi/tex2typst) → rendered by MathJax.
+2. 否则视为 Typst → 由 [tex2typst](https://github.com/July-Tea/tex2typst)（本项目维护的 fork）转换为 LaTeX → 交给 MathJax 渲染。
+   Otherwise it is treated as Typst → converted to LaTeX by [tex2typst](https://github.com/July-Tea/tex2typst) (a fork maintained by this project) → rendered by MathJax.
 
 因此渲染效果与 Obsidian 原生公式一致，但支持的 Typst 语法范围取决于 tex2typst。
 Output therefore looks exactly like Obsidian's native math, while the supported Typst subset is determined by tex2typst.
@@ -110,8 +110,8 @@ tests/                  vitest 单元测试 / vitest unit tests
 
 ## 致谢 / Acknowledgements
 
-Typst → LaTeX 的转换由 [tex2typst](https://github.com/qwinsi/tex2typst) 完成。
-Typst → LaTeX conversion is powered by [tex2typst](https://github.com/qwinsi/tex2typst).
+Typst → LaTeX 的转换由 [tex2typst](https://github.com/July-Tea/tex2typst)（fork 自 [qwinsi/tex2typst](https://github.com/qwinsi/tex2typst)）完成。
+Typst → LaTeX conversion is powered by [tex2typst](https://github.com/July-Tea/tex2typst), a fork of [qwinsi/tex2typst](https://github.com/qwinsi/tex2typst).
 
 ## 作者 / Author
 

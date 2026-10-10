@@ -13,6 +13,10 @@ describe('isLatexExpression', () => {
 	it('does not mistake a lone backslash (Typst row separator) for a LaTeX command', () => {
 		expect(isLatexExpression('a \\ b')).toBe(false);
 	});
+
+	it('treats a bare "\\%" as native LaTeX even with no letter command', () => {
+		expect(isLatexExpression('100\\%')).toBe(true);
+	});
 });
 
 describe('createConverter', () => {

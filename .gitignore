@@ -32,3 +32,7 @@ deploy.sh
 tools/
 tmp_*.js
 teapst_tmp_check.js
+
+# Claude
+.claude/
+claude*
